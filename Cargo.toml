@@ -1,0 +1,15 @@
+[package]
+name = "axum-route-layer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = { version = "0.6.12", features = ["json", "macros"] }
+axum-sessions = "0.4.1"
+tokio = { version = "1.20.0", features = ["full"] }
+tracing-subscriber = "0.3.16"
+tracing = "0.1.37"
+rand = { version = "0.8.5", features = ["min_const_gen"] }
+fmt = "0.1.0"
